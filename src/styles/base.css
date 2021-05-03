@@ -1,0 +1,30 @@
+.HomeView {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 80px);
+  background-image: url("../Images/10808.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+button {
+  width: 110px;
+  padding: 6px;
+
+  font-weight: 400;
+
+  border: 1px solid #acabab;
+  border-radius: 3px;
+
+  background-color: transparent;
+}
+
+button:hover,
+button:focus {
+  color: #ffffff;
+  background-color: #2638da;
+
+  outline: none;
+}
